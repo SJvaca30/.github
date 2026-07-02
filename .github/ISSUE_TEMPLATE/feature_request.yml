@@ -1,0 +1,81 @@
+name: Feature request
+description: Propose a new capability or behavior change.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user, workflow, or engineering problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: non-goals
+    attributes:
+      label: Non-goals
+      description: What is explicitly out of scope?
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Observable conditions that make the work complete.
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: success-metrics
+    attributes:
+      label: Success metrics
+      description: Performance, quality, UX, cost, reliability, or adoption measurements.
+      value: |
+        | Metric | Target | Measurement |
+        | --- | --- | --- |
+        | | | |
+    validations:
+      required: false
+  - type: dropdown
+    id: affected-area
+    attributes:
+      label: Affected area
+      multiple: true
+      options:
+        - Not sure
+        - Frontend/UI
+        - Backend/API
+        - CLI
+        - Data/storage
+        - Infrastructure/CI
+        - Documentation
+        - Tests
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and compatibility
+      description: Breaking changes, migration needs, privacy/security risks, or operational risk.
+    validations:
+      required: false
+  - type: textarea
+    id: ai-context
+    attributes:
+      label: AI context
+      value: |
+        Likely files/modules:
+        Existing patterns to follow:
+        Constraints:
+        Verification expected:
+    validations:
+      required: false

@@ -1,0 +1,70 @@
+name: Engineering task
+description: Track implementation, refactor, maintenance, docs, test, or CI work.
+title: "[Task] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: The concrete outcome to produce.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and truth source
+      description: Link the source issue, PR, design note, discussion, failing run, or command output summary.
+      placeholder: "Source: #123, PR #456, run URL, design doc..."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      value: |
+        In scope:
+        -
+
+        Out of scope:
+        -
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification plan
+      description: Commands, manual checks, screenshots, or deployment checks expected before closeout.
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk and rollback
+      value: |
+        Risk:
+        Rollback:
+    validations:
+      required: false
+  - type: textarea
+    id: ai-context
+    attributes:
+      label: AI context
+      value: |
+        Start here:
+        Relevant files:
+        Avoid:
+        Follow-up links:
+    validations:
+      required: false

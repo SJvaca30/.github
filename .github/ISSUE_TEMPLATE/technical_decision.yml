@@ -1,0 +1,60 @@
+name: Technical decision
+description: Compare options and record an engineering decision.
+title: "[Decision] "
+labels: ["question"]
+body:
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision needed
+      description: What must be decided?
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      value: |
+        | Option | Pros | Cons | Cost/risk |
+        | --- | --- | --- | --- |
+        | A | | | |
+        | B | | | |
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Decision criteria
+      value: |
+        | Criterion | Weight | Notes |
+        | --- | --- | --- |
+        | Correctness | High | |
+        | Maintainability | High | |
+        | Cost | Medium | |
+        | Time to implement | Medium | |
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: Preferred option and reasoning.
+    validations:
+      required: false
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: Follow-up work, migration, operational burden, or irreversible choices.
+    validations:
+      required: false
+  - type: textarea
+    id: ai-context
+    attributes:
+      label: AI context
+      value: |
+        Docs/references reviewed:
+        Prototype evidence:
+        Open questions:
+    validations:
+      required: false

@@ -1,45 +1,61 @@
-## 개요
+## Summary
 
-<!-- 이 PR이 무엇을, 왜 변경하는지 격식체로 서술합니다 -->
+<!-- What changed and why? Keep this concise. -->
 
-## 변경 사항
+## Related work
 
-<!-- 변경 내용을 명사형으로 간단히 나열 -->
+<!-- Use GitHub references: Closes #123, Fixes owner/repo#123, Related to #123. -->
+
+Closes #
+
+## Change type
+
+- [ ] Bug fix
+- [ ] Feature
+- [ ] Refactor
+- [ ] Documentation
+- [ ] Test/CI
+- [ ] Build/dependency
+- [ ] Chore/maintenance
+
+## Scope
+
+<!-- Name the main modules, packages, screens, commands, or docs affected. -->
+
 -
--
 
-## 고민 (기술 선택 이유)
+## Implementation notes
 
-<!-- 다른 기술 스택·라이브러리·접근과 비교하여 왜 이 선택을 했는지 격식체로 설명합니다 -->
+<!-- Important decisions, tradeoffs, alternatives rejected, or repository patterns followed. -->
 
-| 후보 | 장점 | 단점 | 채택 여부 |
-|------|------|------|-------|
-| (채택) | | | O     |
-| (대안) | | | X     |
+## Verification
 
-선택 근거:
+<!-- List exact commands/checks and their result. Do not paste raw secrets or private env values. -->
 
-## 평가 지표
-
-<!-- 수치적 평가 지표로 변경의 효과를 측정합니다 (예: 파싱 정확도, 응답 시간, 토큰 비용, 매칭률) -->
-
-| 지표 | 변경 전 | 변경 후 | 측정 방법 |
-|------|---------|---------|-----------|
-| | | | |
-
-## 테스트
-
-<!-- 수행한 검증을 명사형으로 나열 -->
-- [ ] 단위 테스트 통과 (`pytest`)
-- [ ] 로컬 데모 동작 확인
 - [ ]
 
-## 관련 이슈
+## Risk and rollback
 
-<!-- 예: Closes #12 -->
+Risk:
 
-## 체크리스트
+Rollback:
 
-- [ ] 의료 면책·가드레일 영향 검토
-- [ ] 개인정보(업로드 PDF) 처리 원칙 위배 없음
-- [ ] 주석 명사형·온점 없음 규칙 준수
+## AI tracking
+
+<!-- Fill when this PR was created or materially updated by an AI assistant/agent. -->
+
+Source issue/thread:
+Base branch:
+Head branch:
+Key commits:
+Follow-up issues:
+Known limitations:
+
+## Checklist
+
+- [ ] Related issue, task, or decision is linked.
+- [ ] Acceptance criteria are covered or remaining gaps are documented.
+- [ ] Tests or manual verification are documented above.
+- [ ] User-facing behavior, docs, migrations, config, and release notes were considered.
+- [ ] Security, privacy, and secret-handling impact was considered.
+- [ ] No raw secrets, tokens, credentials, private session contents, or private environment values are included.
